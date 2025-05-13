@@ -12,6 +12,7 @@ class real{
 	static {
 		System.out.println("static");
 	}
+	
 	{
 		System.out.println("non-static");
 	}
