@@ -6,9 +6,7 @@ public class Demo2 {
 		System.out.println("main");
 		real a = new real();
 		real b = new real();
-
 	}
-	
 }
 class real{
 	static {
