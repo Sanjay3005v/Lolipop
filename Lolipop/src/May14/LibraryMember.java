@@ -1,5 +1,4 @@
 package May14;
-import java.util.Scanner;
 public class LibraryMember {
 	static int totalMembers;
 	int id;
