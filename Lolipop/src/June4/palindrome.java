@@ -1,5 +1,5 @@
 
-package June3;
+package June4;
 import java.util.*;
 public class palindrome {
 	public static void main(String[] args) {
