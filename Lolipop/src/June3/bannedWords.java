@@ -19,6 +19,7 @@ public class bannedWords {
 	public static boolean bannedWordCheck(String s) {
 		s=s.toLowerCase();
 		return (s.contains("bad") || s.contains("hate") || s.contains("ugly"));
-			
 	}
+	
+	
 }
