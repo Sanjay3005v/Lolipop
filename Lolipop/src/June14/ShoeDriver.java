@@ -31,7 +31,6 @@ public class ShoeDriver {
 					default: {
 						throw new ShoeBrandException();
 					}
-
 					}
 				} catch (ShoeBrandException e) {
 					System.err.println(e.getMessage());
@@ -61,7 +60,6 @@ public class ShoeDriver {
 						throw new ShoeTypeException();
 
 					}
-
 					}
 				} catch (ShoeTypeException e) {
 					System.err.println(e.getMessage());
@@ -69,7 +67,6 @@ public class ShoeDriver {
 					continue;
 				}
 				break;
-
 			}
 			while (true) {
 				System.out.println("Select Price :");
@@ -159,11 +156,9 @@ public class ShoeDriver {
 				}
 				break;
 			}
-
 			list.add(Shoe.createShoe(brand, type, color, price));
 			System.out.println("Press 1 to exit");
 			System.out.println("Press other number to add more products");
-
 			int option = scan.nextInt();
 			if (option == 1) {
 				break;
@@ -174,7 +169,6 @@ public class ShoeDriver {
 			System.out.println(shoe);
 		}
 		System.out.println("-------------------------------------------------------------------");
-
 		while (true) {
 			System.out.println("Sorting option for products:");
 			System.out.println("1.Price");
@@ -200,13 +194,11 @@ public class ShoeDriver {
 				System.out.println("Option not available");
 				continue;
 			}
-
 			}
 			for (Shoe shoe : shoes) {
 				System.out.println(shoe);
 			}
 			System.out.println("-------------------------------------------------------------------");
-
 			System.out.println("Press 1 to exit");
 			System.out.println("Press other number to check other sorting");
 
@@ -214,10 +206,7 @@ public class ShoeDriver {
 			if (choice == 1) {
 				break;
 			}
-
 		}
 		scan.close();
-
 	}
-
 }
